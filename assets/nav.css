@@ -1,0 +1,77 @@
+header{
+    width: 100%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:#047ae2 ;
+    position: fixed;
+}
+.btn{
+    margin-right: 2%;
+}
+#titre{
+    color: #ffffff;
+    font-family: 'Bauhaus 93', sans-serif;
+    letter-spacing: 4px;
+    font-size: 2em;
+    margin-left: 2%;
+}
+
+
+.bannier{
+
+    margin: auto;
+    width: 100%;
+    height: 530px;
+   background-image: url(../assets/bg2.png);
+    text-align: center;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2%;
+}
+.date{
+    color: #000000;
+    padding-top: 8%;
+font-size:300%;
+width: 100%;
+height: 80px;
+text-transform: capitalize;
+}
+ #time{
+    color: #cea728;
+   padding-top: 10%;
+font-size: 700%;
+width: 100%;
+height: 100px;
+transition: transform() 2s ;
+font-family: 'Poppins', sans-serif;
+}
+
+#time:hover{
+transform: scale(1.2);
+}
+@media  screen and (max-width: 450px) {
+    #time{
+        color: #cea728;
+       padding-top: 10%;
+    font-size: 500%;
+    width: 100%;
+    height: 100px;
+    transition: transform() 2s ;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    #time:hover{
+    transform: scale(1.2);
+    }
+    .date{
+        color: #000000;
+        padding-top: 20%;
+    font-size:250%;
+    width: 100%;
+    height: 80px;
+    text-transform: capitalize;
+    }
+}
